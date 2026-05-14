@@ -2,7 +2,7 @@
 
 A **GUI-based Java Swing application** for NGOs and donation centers to efficiently manage donors, record donations, and generate organized reports — all without spreadsheets or paper registers.
 
----
+
 
 ## 📋 Problem Statement
 
@@ -15,7 +15,7 @@ Managing donations manually using registers, spreadsheets, or paper records is t
 
 **Digital Donation Tracker** solves these problems with a clean, easy-to-use desktop application.
 
----
+
 
 ## ✨ Features
 
@@ -28,7 +28,7 @@ Managing donations manually using registers, spreadsheets, or paper records is t
 | 📊 Reports | Category-wise and month-wise donation summaries |
 | 💾 Export Reports | Save reports as `.txt` files for documentation |
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -37,7 +37,7 @@ Managing donations manually using registers, spreadsheets, or paper records is t
 - **Storage:** Plain text files (`donors.txt`, `donations.txt`)
 - **IDE:** VS Code (with Java Extension Pack)
 
----
+
 
 ## 📁 Project Structure
 
@@ -62,7 +62,7 @@ DigitalDonationTracker/
 └── README.md
 ```
 
----
+
 
 ## 🚀 Getting Started
 
@@ -89,17 +89,7 @@ java -cp out Main
 
 > Data files (`donors.txt`, `donations.txt`) are created automatically in the working directory the first time you save a record.
 
----
 
-## 📸 Screenshots
-
-> *(Add screenshots of the app here after running it)*
-
-| Home Screen | Add Donor | Reports |
-|---|---|---|
-| *(screenshot)* | *(screenshot)* | *(screenshot)* |
-
----
 
 ## 🧩 How It Works
 
@@ -108,13 +98,7 @@ java -cp out Main
 3. **DataHandler** handles all file reads/writes, ID generation, and report calculations.
 4. **Reports** support filtering by month and breakdown by donation type (Money, Clothes, Food, Others).
 
----
 
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
-
----
 
 ## 📄 License
 
